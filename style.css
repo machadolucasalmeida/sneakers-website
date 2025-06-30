@@ -1,0 +1,81 @@
+/*BREAK POINTS
+MOBILE: 
+xs - <576PX
+
+TABLET: 
+SM - >=576PX
+MD - >=768PX
+
+LAPTOP / PC: 
+LG - >=992PX 
+XL - >= 1200PX
+XXL - >= 1400PX 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --brand-color: #7ca2f4;
+
+  --dark: #121214;
+
+  --gray: #f3f7ff;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+.message {
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-container {
+  background-image: url("image/image-michael-jordan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 0 50px;
+
+}
+
+.header-container img {
+  margin: 62px 0;
+}
+
+.header-container .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.header-text p {
+  font-size: 22px;
+}
+
+.header-text {
+  padding-bottom: 124px;
+}
+
+.products-container {
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
