@@ -130,3 +130,47 @@ body {
   padding: 42px;
   margin-bottom: 28px;
 }
+
+@media (min-width: 730px) {
+
+  .header-text p {
+    width: 400px;
+  }
+
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    padding: 76px 50px;
+    flex-direction: unset;
+    align-items: unset;
+  }
+
+  .products-text {
+    grid-column: 1 / -1;
+    margin-bottom: 76px;
+  }
+
+  .shoes-card {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-text p {
+    width: 500px;
+  }
+
+  .header-container {
+    padding-left: 380px;
+  }
+
+  .products-container {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 76px 20px;
+  }
+}
